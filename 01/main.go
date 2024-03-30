@@ -6,5 +6,5 @@ func main() {
 	fmt.Println("hello from krishna")
 }
 
-//go mod init hello
-//go run main.go
+//To initialise a go project: go mod init hello
+//To run a go file: go run main.go
