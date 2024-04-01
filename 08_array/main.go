@@ -15,11 +15,13 @@ func main() {
 	//fruitList[2] is not given any value, so it given " "
 	fruitList[3] = "Peach"
 
-	fmt.Println("Our fruit-list: ", fruitList)
+	fmt.Println("Our fruit-list:", fruitList)
 	fmt.Println("Length of fruit-list: ", len(fruitList))
+	fmt.Printf("Type of fruitList is %T\n", fruitList)
 
 	
-	var vegList = [4]string {"potato","beans","mushroom"}
-	fmt.Println("Our veg-List: ", vegList)
+	var vegList = [5]string {"potato","beans","mushroom"}
+	fmt.Println("Our veg-List:", vegList)
 	fmt.Println("Length of veg-List: ", len(vegList))
+	fmt.Printf("Type of fruitList is %T\n", vegList)
 }
