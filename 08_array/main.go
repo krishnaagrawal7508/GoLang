@@ -23,5 +23,5 @@ func main() {
 	var vegList = [5]string {"potato","beans","mushroom"}
 	fmt.Println("Our veg-List:", vegList)
 	fmt.Println("Length of veg-List: ", len(vegList))
-	fmt.Printf("Type of fruitList is %T\n", vegList)
+	fmt.Printf("Type of vegList is %T\n", vegList)
 }
