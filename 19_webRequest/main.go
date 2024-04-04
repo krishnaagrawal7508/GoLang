@@ -21,13 +21,14 @@ func main() {
 
 	//caller's responsibility to close connection
 	defer response.Body.Close()
-	
+
 	databyte, err := io.ReadAll(response.Body)
 
 	if err != nil {
 		panic(err)
 	}
 
+	// databyte is in byte format
 	fmt.Println(string(databyte))
 
 }
